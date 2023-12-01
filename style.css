@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css?family=Relway:400,700");
+
+* {
+  /* margin: 0; */
+  /* padding: 0; */
+  color: #fff;
+}
+
+/* create a  header style on the text that loojks like choclate */
+
+body {
+  font-family: "Relway", sans-serif;
+  font-size: 1.2em;
+  background-color: rgba(38, 23, 23, 0.5);
+}
+
+header {
+  text-align: center;
+  color: wheat;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  align-content: center;
+  /* justify-content: center; */
+}
+
+.ingredients {
+  /* background-color: brown; */
+  margin: 10px 10px 10px 10px;
+  position: relative;
+}
+
+.instructions {
+  /* background-color: #333; */
+  margin: 10px 10px 10px 10px;
+  position: relative;
+  width: auto;
+}
+
+li {
+  list-style-type: none;
+  font-size: medium;
+  font-weight: bold;
+}
+
+label {
+  font-size: medium;
+  font-weight: bold;
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
